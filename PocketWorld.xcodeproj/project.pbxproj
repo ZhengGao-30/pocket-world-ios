@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0031D228BC9ED77C81A49FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F02BEFF251570B3DEEEA0B /* Assets.xcassets */; };
+		0C7E7ACC600EC6C9EFB53888 /* PocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985E2557E4E60178BA7D620 /* PocketView.swift */; };
+		17C9A6ED2DFA16E85D49AC96 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D38F7942C786B01605B992 /* Theme.swift */; };
+		21A0C747385E67282AA5B614 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96398C659DB9590C834A7323 /* ExploreView.swift */; };
+		447373BB909B11956968BF46 /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32708868E34E953455BA190 /* CompanionView.swift */; };
+		8D237F5901FD35421519C4BA /* WorldLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B89982FF2470C05AF5A7D4 /* WorldLocationTests.swift */; };
+		9B38E6A972CA09F9D0ADD35D /* WorldStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24644C68954E5A1E932F5724 /* WorldStore.swift */; };
+		A8DDBF1A6785069D96302E0B /* ComposeTreasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C9E274742E9849E8CB83D /* ComposeTreasureView.swift */; };
+		AF116551647A07B2871CDA9C /* TreasureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396695E0F28BD2FE5DA255 /* TreasureDetailView.swift */; };
+		B8C6AC102B202A44941B0A40 /* WorldLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031591201A77D2C0F92CD31 /* WorldLocation.swift */; };
+		D1334AF185B8E54EBA4A79A2 /* WorldStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6317089AD3AD65A7936B587B /* WorldStoreTests.swift */; };
+		DDE17175D1D5B582790BF3D5 /* WorldStoreEditingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F8A894776F8F7D6ACF054 /* WorldStoreEditingTests.swift */; };
+		DEA1A3E5008285645BFC5A35 /* PocketWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C1BF45B3EEDF32C4FA80C /* PocketWorldApp.swift */; };
+		E5F29BE0015897A1B41A9E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C24AF726767566ADE7946C /* Foundation.framework */; };
+		EAB77FC516181FE0157DC494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C24AF726767566ADE7946C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B89952851F5AF553566C63E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6F1F8422F3D3148DAC6663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA3AF8A373B665578FF6500;
+			remoteInfo = PocketWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B89982FF2470C05AF5A7D4 /* WorldLocationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldLocationTests.swift; sourceTree = "<group>"; };
+		24644C68954E5A1E932F5724 /* WorldStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldStore.swift; sourceTree = "<group>"; };
+		24F02BEFF251570B3DEEEA0B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332A7A9346F45C0336F67FE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513C9E274742E9849E8CB83D /* ComposeTreasureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposeTreasureView.swift; sourceTree = "<group>"; };
+		5C8C1BF45B3EEDF32C4FA80C /* PocketWorldApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PocketWorldApp.swift; sourceTree = "<group>"; };
+		6317089AD3AD65A7936B587B /* WorldStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldStoreTests.swift; sourceTree = "<group>"; };
+		6F0015BF63934D4AAB82A5A2 /* PocketWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D396695E0F28BD2FE5DA255 /* TreasureDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TreasureDetailView.swift; sourceTree = "<group>"; };
+		96398C659DB9590C834A7323 /* ExploreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A32708868E34E953455BA190 /* CompanionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CompanionView.swift; sourceTree = "<group>"; };
+		A985E2557E4E60178BA7D620 /* PocketView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PocketView.swift; sourceTree = "<group>"; };
+		D031591201A77D2C0F92CD31 /* WorldLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldLocation.swift; sourceTree = "<group>"; };
+		D7C24AF726767566ADE7946C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E07F8A894776F8F7D6ACF054 /* WorldStoreEditingTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WorldStoreEditingTests.swift; sourceTree = "<group>"; };
+		F4D38F7942C786B01605B992 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FF4BE8909A5A0538D86E961A /* PocketWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2F47FCF993EBB59B0BDDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F29BE0015897A1B41A9E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C3857CD866D69784A5953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB77FC516181FE0157DC494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0581C1A570922E150B0B5105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0015BF63934D4AAB82A5A2 /* PocketWorld.app */,
+				FF4BE8909A5A0538D86E961A /* PocketWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		161CD46E652BD3DA84C2E430 = {
+			isa = PBXGroup;
+			children = (
+				0581C1A570922E150B0B5105 /* Products */,
+				6FF89957B0967CE24CCC3758 /* Frameworks */,
+				A727F47757EFD553B1274AAD /* PocketWorld */,
+				2A8B93AC070D18A819A2CAC5 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8B93AC070D18A819A2CAC5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22B89982FF2470C05AF5A7D4 /* WorldLocationTests.swift */,
+				E07F8A894776F8F7D6ACF054 /* WorldStoreEditingTests.swift */,
+				6317089AD3AD65A7936B587B /* WorldStoreTests.swift */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6FF89957B0967CE24CCC3758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F4F81295605E1DAF697AE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A727F47757EFD553B1274AAD /* PocketWorld */ = {
+			isa = PBXGroup;
+			children = (
+				A32708868E34E953455BA190 /* CompanionView.swift */,
+				513C9E274742E9849E8CB83D /* ComposeTreasureView.swift */,
+				96398C659DB9590C834A7323 /* ExploreView.swift */,
+				A985E2557E4E60178BA7D620 /* PocketView.swift */,
+				5C8C1BF45B3EEDF32C4FA80C /* PocketWorldApp.swift */,
+				F4D38F7942C786B01605B992 /* Theme.swift */,
+				8D396695E0F28BD2FE5DA255 /* TreasureDetailView.swift */,
+				D031591201A77D2C0F92CD31 /* WorldLocation.swift */,
+				24644C68954E5A1E932F5724 /* WorldStore.swift */,
+				332A7A9346F45C0336F67FE4 /* Info.plist */,
+				24F02BEFF251570B3DEEEA0B /* Assets.xcassets */,
+			);
+			name = PocketWorld;
+			path = PocketWorld;
+			sourceTree = "<group>";
+		};
+		AB1F4F81295605E1DAF697AE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7C24AF726767566ADE7946C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA3AF8A373B665578FF6500 /* PocketWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EAD9D67287172CA9B26B8D /* Build configuration list for PBXNativeTarget "PocketWorld" */;
+			buildPhases = (
+				367996E70BF703106EBDEC91 /* Sources */,
+				C4C3857CD866D69784A5953E /* Frameworks */,
+				CD4BCEA7978D759C3130C097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketWorld;
+			productName = PocketWorld;
+			productReference = 6F0015BF63934D4AAB82A5A2 /* PocketWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		736AAC59B00F3282D77C7FD8 /* PocketWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FE1EAFE212D33B3285EE58 /* Build configuration list for PBXNativeTarget "PocketWorldTests" */;
+			buildPhases = (
+				73EBA6E9EB6BC47AB8D76F77 /* Sources */,
+				5C2F47FCF993EBB59B0BDDD6 /* Frameworks */,
+				849CA01CCEA11D8148F13A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9C65ECE0646F8A22B86BB1 /* PBXTargetDependency */,
+			);
+			name = PocketWorldTests;
+			productName = PocketWorldTests;
+			productReference = FF4BE8909A5A0538D86E961A /* PocketWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6F1F8422F3D3148DAC6663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					3CA3AF8A373B665578FF6500 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					736AAC59B00F3282D77C7FD8 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 3CA3AF8A373B665578FF6500;
+					};
+				};
+			};
+			buildConfigurationList = D222A10845DBBAEA8AFC1CE9 /* Build configuration list for PBXProject "PocketWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 161CD46E652BD3DA84C2E430;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 0581C1A570922E150B0B5105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA3AF8A373B665578FF6500 /* PocketWorld */,
+				736AAC59B00F3282D77C7FD8 /* PocketWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849CA01CCEA11D8148F13A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4BCEA7978D759C3130C097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031D228BC9ED77C81A49FC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367996E70BF703106EBDEC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447373BB909B11956968BF46 /* CompanionView.swift in Sources */,
+				A8DDBF1A6785069D96302E0B /* ComposeTreasureView.swift in Sources */,
+				21A0C747385E67282AA5B614 /* ExploreView.swift in Sources */,
+				0C7E7ACC600EC6C9EFB53888 /* PocketView.swift in Sources */,
+				DEA1A3E5008285645BFC5A35 /* PocketWorldApp.swift in Sources */,
+				17C9A6ED2DFA16E85D49AC96 /* Theme.swift in Sources */,
+				AF116551647A07B2871CDA9C /* TreasureDetailView.swift in Sources */,
+				B8C6AC102B202A44941B0A40 /* WorldLocation.swift in Sources */,
+				9B38E6A972CA09F9D0ADD35D /* WorldStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EBA6E9EB6BC47AB8D76F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D237F5901FD35421519C4BA /* WorldLocationTests.swift in Sources */,
+				DDE17175D1D5B582790BF3D5 /* WorldStoreEditingTests.swift in Sources */,
+				D1334AF185B8E54EBA4A79A2 /* WorldStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A9C65ECE0646F8A22B86BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocketWorld;
+			target = 3CA3AF8A373B665578FF6500 /* PocketWorld */;
+			targetProxy = B89952851F5AF553566C63E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EFA36C6A3AC0216191B6496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3E632A32D9E14E82EF3D0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.demo;
+				PRODUCT_MODULE_NAME = PocketWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		43FFEC3B3860EFD211A6C188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.demo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/PocketWorld";
+				TEST_TARGET_NAME = PocketWorld;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19DB759E47813BF5300F534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PocketWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.demo;
+				PRODUCT_MODULE_NAME = PocketWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2473CE6256C57391586A563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F588C27464B85294F5DD2686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketworld.demo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/PocketWorld";
+				TEST_TARGET_NAME = PocketWorld;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FE1EAFE212D33B3285EE58 /* Build configuration list for PBXNativeTarget "PocketWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FFEC3B3860EFD211A6C188 /* Release */,
+				F588C27464B85294F5DD2686 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EAD9D67287172CA9B26B8D /* Build configuration list for PBXNativeTarget "PocketWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19DB759E47813BF5300F534 /* Release */,
+				3E632A32D9E14E82EF3D0429 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D222A10845DBBAEA8AFC1CE9 /* Build configuration list for PBXProject "PocketWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFA36C6A3AC0216191B6496 /* Debug */,
+				F2473CE6256C57391586A563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6F1F8422F3D3148DAC6663 /* Project object */;
+}

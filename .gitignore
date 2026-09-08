@@ -1,0 +1,28 @@
+# macOS and local Xcode state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Generated build products and test bundles
+.build/
+build/
+DerivedData/
+tmp/
+*.log
+*.xcresult
+*.xcarchive
+*.ipa
+*.dSYM/
+
+# Signing, credentials, and local app data
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+world-state*.json
+
+# Optional local Ruby dependencies
+.bundle/
+vendor/bundle/
